@@ -1,4 +1,41 @@
-baseURL = 'http://inugasky.netlify.app/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "hello-friend-ng"
+baseURL = 'https://inugasky.me'
+
+title = "Inugasky's Blog"
+theme = 'mini'
+
+# Default content language
+defaultContentLanguage = 'en'
+
+paginate = 5
+
+# Hugo Configure Markup
+# More info: https://gohugo.io/getting-started/configuration-markup#
+[markup]
+  [markup.highlight]
+    guessSyntax = true
+    style = 'vim'
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+  # needed to render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+  [markup.goldmark.renderer]
+      unsafe = true
+
+# Social links in footer, support github,twitter,stackoverflow,facebook
+[social]
+  # e.g.
+  github = 'https://github.com/taise-hub'
+  # twitter: your-github-link
+  # stackoverflow: your-github-link
+  # facebook: your-facebook-link
+
+# Site parameters
+[params]
+  # Site Author
+  # author = 'taise'
+  # Author biography
+  bio = '技術寄りのお話など'
+  # Site Description, used in HTML meat
+  description = 'My Blog'
+
