@@ -1,7 +1,6 @@
 ---
 title: "hxpCTF 2022"
 date: 2023-03-12T22:08:16+09:00
-draft: true
 ---
 
 hxpCTF 2022にソロ参加しました。  
