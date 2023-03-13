@@ -3,39 +3,20 @@ baseURL = 'https://inugasky.me'
 title = "Inugasky's Blog"
 theme = 'PaperMod'
 
-# Default content language
-defaultContentLanguage = 'en'
-
-paginate = 5
-
-# Hugo Configure Markup
-# More info: https://gohugo.io/getting-started/configuration-markup#
-[markup]
-  [markup.highlight]
-    guessSyntax = true
-    style = 'vim'
-  [markup.tableOfContents]
-    endLevel = 3
-    ordered = false
-    startLevel = 2
-  # needed to render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
-  [markup.goldmark.renderer]
-      unsafe = true
-
-# Social links in footer, support github,twitter,stackoverflow,facebook
-[social]
-  # e.g.
-  github = 'https://github.com/taise-hub'
-  # twitter: your-github-link
-  # stackoverflow: your-github-link
-  # facebook: your-facebook-link
-
-# Site parameters
 [params]
-  # Site Author
-  # author = 'taise'
-  # Author biography
-  bio = '技術寄りのお話など'
-  # Site Description, used in HTML meat
-  description = 'My Blog'
+defaultTheme = "dark"
 
+[assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/images/avatar.png"
+favicon32x32 = "/images/avatar.png"
+apple_touch_icon = "/images/avatar.png"
+safari_pinned_tab = "/images/avatar.png"
+
+[params.homeInfoParams]
+Title = "いぬが好きー U・ᴥ・U"
+Content = "セキュリティのお話など"
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/taise-hub"
