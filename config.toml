@@ -4,14 +4,14 @@ title = "Inugasky's Blog"
 theme = 'PaperMod'
 
 [params]
-defaultTheme = "dark"
+defaultTheme = "light"
 
-[assets]
-favicon = "/favicon.ico"
-favicon16x16 = "/images/avatar.png"
-favicon32x32 = "/images/avatar.png"
-apple_touch_icon = "/images/avatar.png"
-safari_pinned_tab = "/images/avatar.png"
+[params.assets]
+favicon = "/images/avatar.png"
+# favicon16x16 = "/images/avatar.png"
+# favicon32x32 = "/images/avatar.png"
+# apple_touch_icon = "/images/avatar.png"
+# safari_pinned_tab = "/images/avatar.png"
 
 [params.homeInfoParams]
 Title = "いぬが好きー U・ᴥ・U"
